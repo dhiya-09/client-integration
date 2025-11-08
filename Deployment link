@@ -1,0 +1,10 @@
+git init
+git add .
+git commit -m "IBM NJ REST Client Integration project"
+git branch -M main
+git remote add origin https://github.com/<yourusername>/ibm-nj-rest-client.git
+git push -u origin main
+
+./mvnw clean package -DskipTests
+
+java -jar target/ibm-nj-rest-client-1.0.0.jarhttps://ibm-nj-rest-client.onrender.com/client/users
